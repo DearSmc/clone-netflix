@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+.signUp {
+
+    background-image: url(./assets/bg.jpg);
+    background-blend-mode: multiply;
+    background-color: #727070;
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.logo{
+    align-self: start; 
+    justify-self: start;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+}
+
+.goLogin{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(250, 15, 15);
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    align-self: center;
+    margin-right: 5%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 600px;
+  
+    padding: 50px 70px 40px 50px;
+    background-color: rgba(0,0,0,0.70); 
+
+    color:white;
+}
+
+.gropInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    /* padding: 3px; */
+}
+
+.word{
+    padding: 10px 0px 10px 0px;
+    font-size: large;
+    align-self: center;
+}
+
+.inp{
+    width: 280px;
+    height: 50px;
+    background-color: #333333;
+    border: 0;
+    border-radius: 5px;
+    padding: 25px; 
+    font-size: medium;
+    color: white;
+    
+}
+
+.inp:focus{
+    outline: none;
+    background-color: #454545;
+    /* border-bottom: 3px solid orangered; */
+    border-bottom: 3px solid gray;
+}
+
+.inp-warnning{
+
+    width: 280px;
+    height: 50px;
+
+    border: 0;
+    border-radius: 5px;
+    padding: 25px; 
+    font-size: medium;
+    color: white;
+    outline: none;
+    background-color: #454545;
+    border-bottom: 3px solid orangered;
+}
+
+.confirm{
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    background-color: #333333;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.confirm-active{
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    background-color: rgb(250, 15, 15);
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    align-self: center;
+    outline: none;
+}
+
+
+
